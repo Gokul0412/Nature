@@ -1,0 +1,44 @@
+.leaf-page {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  .content-img-1 {
+    p {
+      font-size: 18px;
+      position: absolute;
+      top: 20%;
+      letter-spacing: 5px;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      padding-left: 4rem;
+    }
+    img {
+    }
+  }
+  .content-img-2 {
+    img {
+      position: relative;
+    }
+    .head-but {
+      position: absolute;
+      bottom: 0%;
+      padding-left: 15rem;
+      padding-bottom: 7rem;
+
+      text-align: center;
+
+      h2 {
+        font-size: 4rem;
+        font-family: "Times New Roman", Times, serif;
+      }
+      button {
+        border: solid;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}

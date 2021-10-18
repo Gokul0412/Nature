@@ -1,0 +1,37 @@
+.green-atelier {
+  .img-holder {
+    position: relative;
+    .content-holder {
+      position: absolute;
+      top: 0%;
+      text-align: center;
+      padding-left: 20rem;
+      padding-top: 3rem;
+
+      h2 {
+        font-size: 3rem;
+        font-family: "Times New Roman", Times, serif;
+        color: white;
+      }
+      p {
+        letter-spacing: 1px;
+        color: white;
+        font-size: 18px;
+      }
+    }
+    .img-place-holder-1 {
+      min-height: 773px;
+      background-image: url("./src/img/l1.jpeg");
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: bottom;
+    }
+    .img-place-holder-2 {
+      min-height: 773px;
+      background-image: url("./src/img/l2.jpeg");
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+}

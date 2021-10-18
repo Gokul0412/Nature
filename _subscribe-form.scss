@@ -1,0 +1,28 @@
+.subscribe-form {
+  position: relative;
+  .banner-img {
+    img {
+      width: 100vw;
+      height: 600px;
+    }
+  }
+  .submit-form {
+    position: absolute;
+    bottom: 0%;
+    padding-bottom: 17rem;
+    padding-left: 15rem;
+    h2 {
+      font-size: 4rem;
+      font-family: "Times New Roman", Times, serif;
+      color: white;
+    }
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: white;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,221 @@
+.home-page {
+  position: relative;
+}
+
+.home-page .banner-img img {
+  width: 100vw;
+  height: auto;
+}
+
+.home-page .content-holder {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-left: 40rem;
+}
+
+.home-page .content-holder .content {
+  border: solid;
+  border-color: white;
+  border-width: thick;
+  padding: 3rem;
+}
+
+.home-page .content-holder .content p {
+  font-size: 20px;
+  color: white;
+}
+
+.home-page .content-holder .content h2 {
+  font-size: 5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: white;
+}
+
+.awsome-page {
+  background-color: #d8dfd0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.awsome-page h1 {
+  font-size: 10rem;
+  color: white;
+}
+
+.awsome-page h2 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+.leaf-page {
+  position: relative;
+  width: 100vw;
+  height: auto;
+}
+
+.leaf-page .content-img-1 p {
+  font-size: 18px;
+  position: absolute;
+  top: 20%;
+  letter-spacing: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 4rem;
+}
+
+.leaf-page .content-img-2 img {
+  position: relative;
+}
+
+.leaf-page .content-img-2 .head-but {
+  position: absolute;
+  bottom: 0%;
+  padding-left: 15rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.leaf-page .content-img-2 .head-but h2 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.leaf-page .content-img-2 .head-but button {
+  border: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid-img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.grid-img .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-img .card img {
+  width: 370px;
+  height: 340px;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.floral-design {
+  background-color: #d8dfd0;
+}
+
+.floral-design .content-holder {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.floral-design .content-holder h2 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.floral-design .content-holder p {
+  font-size: 18px;
+  padding-right: 1rem;
+}
+
+.green-atelier .img-holder {
+  position: relative;
+}
+
+.green-atelier .img-holder .content-holder {
+  position: absolute;
+  top: 0%;
+  text-align: center;
+  padding-left: 20rem;
+  padding-top: 3rem;
+}
+
+.green-atelier .img-holder .content-holder h2 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.green-atelier .img-holder .content-holder p {
+  letter-spacing: 1px;
+  color: white;
+  font-size: 18px;
+}
+
+.green-atelier .img-holder .img-place-holder-1 {
+  min-height: 773px;
+  background-image: url("./src/img/l1.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.green-atelier .img-holder .img-place-holder-2 {
+  min-height: 773px;
+  background-image: url("./src/img/l2.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.subscribe-form {
+  position: relative;
+}
+
+.subscribe-form .banner-img img {
+  width: 100vw;
+  height: 600px;
+}
+
+.subscribe-form .submit-form {
+  position: absolute;
+  bottom: 0%;
+  padding-bottom: 17rem;
+  padding-left: 15rem;
+}
+
+.subscribe-form .submit-form h2 {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.subscribe-form .submit-form button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
